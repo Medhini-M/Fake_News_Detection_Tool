@@ -1,3 +1,6 @@
+# download training dataset from : https://www.kaggle.com/datasets/rajatkumar30/fake-news
+# keep colums text, label; other columns can be deleted.
+
 from transformers import (
     RobertaTokenizer,
     RobertaForSequenceClassification,
